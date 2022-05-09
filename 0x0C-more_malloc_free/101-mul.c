@@ -14,6 +14,7 @@ int check_error(char **argv, int argc);
 int main(int argc, char **argv)
 {
 	if (argc != 3)
+
 	{
 		printf("Error\n");
 		exit(98);
@@ -32,12 +33,13 @@ int main(int argc, char **argv)
 			num2[j] = argv[2][i] - '0';
 		}
 		for (i = 0; i < l2; i++)
-		{
-			for (j = 0; j < l1; j++)
+			s
 			{
-				mul[i + j] += num2[i] * num1[j];
+				for (j = 0; j < l1; j++)
+				{
+					mul[i + j] += num2[i] * num1[j];
+				}
 			}
-		}
 		for (i = 0; i < l1 + l2; i++)
 		{
 			tmp = mul[i] / 10;
