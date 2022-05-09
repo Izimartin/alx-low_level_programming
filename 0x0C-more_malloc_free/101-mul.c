@@ -11,7 +11,7 @@
  * @n: number of bytes to be filled
  *
  * Return: pointer to the filled memory area
- */
+*/
 
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -33,7 +33,7 @@ char *_memset(char *s, char b, unsigned int n)
  * @size: size of each element
  *
  * Return: pointer to new allocated memory
- */
+*/
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -49,6 +49,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	return (ptr);
 }
 
+
 /**
  * multiply - initialize array with 0 byte
  *
@@ -56,7 +57,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
  * @s2: string 2
  *
  * Return: nothing
- */
+*/
 
 void multiply(char *s1, char *s2)
 {
@@ -101,6 +102,7 @@ void multiply(char *s1, char *s2)
 	free(temp);
 }
 
+
 /**
  * main - Entry point
  *
@@ -111,7 +113,7 @@ void multiply(char *s1, char *s2)
  * @argv: arguments array
  *
  * Return: 0 on success 98 on faliure
- */
+*/
 
 int main(int argc, char *argv[])
 {
