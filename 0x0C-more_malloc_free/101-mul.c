@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include "main.h"
 #include <stddef.h>
-
 int check_error(char **argv, int argc);
+
 /**
  * main - multiplies two positive numbers
  * @argc: n arguments
