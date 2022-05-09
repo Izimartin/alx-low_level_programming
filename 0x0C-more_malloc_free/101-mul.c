@@ -35,6 +35,7 @@ char *_memset(char *s, char b, unsigned int n)
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
+
 {
 	char *ptr;
 
@@ -58,6 +59,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
  */
 
 void multiply(char *s1, char *s2)
+
 {
 	int i, l1, l2, total_l, f_digit, s_digit, res = 0, tmp;
 	char *ptr;
@@ -114,6 +116,7 @@ void multiply(char *s1, char *s2)
  */
 
 int main(int argc, char *argv[])
+
 {
 	char *n1 = argv[1];
 	char *n2 = argv[2];
@@ -128,6 +131,5 @@ int main(int argc, char *argv[])
 	}
 	else
 		multiply(n1, n2);
-
 	return (0);
 }
