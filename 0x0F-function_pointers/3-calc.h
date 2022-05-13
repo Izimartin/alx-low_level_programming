@@ -1,12 +1,14 @@
-#ifndef FILE_CALC
-#define FILE_CALC
+#ifndef _CALC_H_
+#define _CALC_H_
 
+#include <stdlib.h>
+#include <stdio.h>
 /**
- * struct op - Structure op
- * @op: operator
- * @f: function
+ * struct op - Struct op
+ *
+ * @op: The operator
+ * @f: The function associated
  */
-
 typedef struct op
 {
 	char *op;
@@ -14,15 +16,10 @@ typedef struct op
 } op_t;
 
 int op_add(int a, int b);
-
 int op_sub(int a, int b);
-
 int op_mul(int a, int b);
-
 int op_div(int a, int b);
-
 int op_mod(int a, int b);
-
 int (*get_op_func(char *s))(int, int);
 
 #endif
