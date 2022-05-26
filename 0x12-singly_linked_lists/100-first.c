@@ -3,6 +3,7 @@
 /**
  * bmain - function executed before main
  * Return: no return.
+ * Auth: Martins Akhivbareme
  */
 
 void __attribute__ ((constructor)) bmain()
