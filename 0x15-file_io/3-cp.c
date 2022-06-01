@@ -65,7 +65,8 @@ void write_error(char *file)
  *
  * Return: tbc.
  */
- int main(int argc, char **argv)
+
+int main(int argc, char **argv)
 {
 	int file_to;
 	int file_from;
